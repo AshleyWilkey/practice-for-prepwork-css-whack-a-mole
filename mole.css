@@ -1,34 +1,34 @@
 /* Your code here */
 .game-board {
   display: inline-block;
-  height: 482px;
+  height: 241px;
   position: relative;
-  width: 640px;
+  width: 320px;
   overflow: hidden;
 }
 .game-board--mole-head {
-  height: 356px;
+  height: 178px;
   position: absolute;
-  width: 376px;
-  left: 109px;
+  width: 188px;
+  left: 54px;
+  transition: margin-top, 0.25s;
 }
 
 .game-board--mole-hill {
-  height: 220px;
+  height: 110px;
   position: absolute;
-  width: 640px;
+  width: 320px;
   bottom: 0;
 }
 
 .game-board--mole-head-hidden {
-  margin-top: 482px;
-  height: 356px;
+  margin-top: 241px;
+  height: 178px;
   position: absolute;
-  width: 376px;
-  left: 109px;
+  width: 188px;
+  left: 54px;
 }
 
-/* 
 .sb {
   background-color: cornflowerblue;
   border-bottom: 1px solid #645ded;
@@ -39,16 +39,15 @@
   margin-bottom: 50px;
   padding: 10px 20px;
 }
-/* */
-/* .sb__mole-counter {
+
+.sb__mole-counter {
   flex: 1 0 0;
   text-align: right;
 }
-*/
-/* .sb__score-holder {
+
+.sb__score-holder {
   flex: 1 0 0;
-} */
-/* */
-/* .sb__game-over--hidden {
+}
+.sb__game-over--hidden {
   display: none;
-} */
+}
